@@ -1,0 +1,77 @@
+// Place all the styles related to the work controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+    font-size: 1.65vw;
+}
+
+td li {
+    font-size: calc(0.5vw + 0.8vh);
+}
+
+#workExperiencePage {
+    background-color: rgb(225,225,225);
+    width: 98.7vw;
+    position: absolute;
+    margin-top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Logo {
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+    //margin-top: 10%;
+    //margin-right: 50%;
+    height: 15vw;
+    width: 24vw;
+    border-radius: 1.5vw;
+}
+
+#CumminsLogo {
+    margin-top: 5%;
+}
+
+.logoImg {
+    display: block;
+    height: 15vw;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.workInfo {
+    position: relative;
+    background-color: white;
+    border-radius: 1.5vw;
+    margin-top: -15vw;
+    margin-left: 39.5vw;
+    margin-right: 5vw;
+    height: 15vw;
+}
+
+.workInfo table {
+    padding: 1%;
+    font-size: calc(0.5vw + 0.8vh);
+}
+
+// #GlatfelterLogo {
+//     margin-top: 5%;
+// }
+
+// #VectronLogo {
+//     margin-top: 5%;
+//     //margin-bottom: 5%;
+// }
+
+// #MainlandLogo {
+//     margin-top: 5%;
+// }
+
+#MainlandInfo {
+    margin-bottom: 5%;
+}
+
+
+

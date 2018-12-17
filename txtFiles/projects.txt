@@ -1,0 +1,45 @@
+** Capstone
+    - tractive team member
+    - responsible for motor and motor controller
+    - Manipulated and developed software for the functionality of our motor via CAN-BUS
+    - created instructions used by unitek
+    - Tested the control properties, such as overshoot, rise time, and settling time, of our motor
+    - held line of communication with german motor controller company
+    - aided in development of tractive system control PCB
+
+** cummins tableau 
+    - Learned how to use Tableau to create visuals for data analysis.
+    - Created plots to analyze the amounts of notes run per day and machine, the different type of Jams, and the sensor measurments for each note run through a machine.
+    - The plots were created to update automatically using connections to a SQL server and a Tableau Server.
+    - The dashboards were added to a web app in order to be accessed by anyone on the company network by writing HTML, CSS, and javascript with Tableau's API.
+
+** cummins audio amp
+    - learned how to utilize altium to design PCBs and schematics.
+    - Spec'd parts to meet the requirements to interface with the machine's main board. 
+    - designed the schematic and PCB for the circuit prior to having it ordered. 
+    - Manufactured the first iterations of the board to test the circuit.
+
+** cummins mag image sensor testing
+    - Created MATLAB scripts to automatically analyze .csv files output from a test machine.
+    - The purpose was to test how effective Mitsubishi's Magnectic sensor would be for detecting the magnetic properties of currency.
+    - Was able to analyze noise from various sensors and the noise contributed from extraneous moving magnetic parts.
+
+** counterfiet note detection software
+    - Developed protoyped software that could determine if note was counterfeit.
+    - Software utilized a known genuine note to compare to an unknown note,
+    - The software compared the infrared images of the two notes and compared the result to a dynamic threshold.
+    - Software was upwards of 80% efficent.
+
+** glatfelter chemical flow control device
+    - responsible for correcting an unknown issue with a device that transports a specific amount of chemicals.
+    - In order to accomplish the task full understanding of the device had to be achieved as well as coming up with a unique solution that would allow for the safety of the machine as well as the machine running properly. 
+
+** Vectron OCXO
+    - tested an oven controlled crsytal oscillator application specific integrated circuit.
+    - Gained experience using multiple different types of oscillators
+    - Provide changes that would be made to the final design.
+
+** this website
+    - Taught myself HTML, CSS, javascript, Ruby, and Rails in a short period of time.
+    - Taught myself how to use apache to make a web server.
+

@@ -1,0 +1,215 @@
+<div id="projectsPage">
+    <div id="capstoneTitle" class="Title">
+        <h1>YORK COLLEGE ELECTRIC CAR CAPSTONE</h1>
+    </div>
+
+    <div id="capstoneInfo" class="Info">
+        <table>
+            <tr>
+                <td>
+                    <%= link_to image_tag("Capstone_Car.png", class: "Img"), 'assets/Capstone_Car.png' %>
+                </td>
+                <td>
+                    <%= link_to image_tag("Capstone_MC.png", class: "Img"), 'assets/Capstone_MC.png' %>
+                </td>
+                <td rowspan=2>
+                    <ul>
+                        <li>Tractive team member.</li>
+                        <li>Resposible from motor and motor controller.</li>
+                        <li>Manipulated and developed software for the functionality of our motor via CAN-BUS.</li>
+                        <li>Created startup and shutdown procedure for our motor and motor controller that is now used by the motor controller company, Unitek. Can be seen <%= link_to "HERE", 'Startup & Shutdown Procedure.pdf' %>.</li>
+                        <li>Tested and manipultated control properties, such as overshoot, rise time, and settling time, of our motor.</li>
+                        <li>Held line of communication with German motor controller company Unitek.</li>
+                        <li>Aided in development of tractive system control PCB.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <%=  link_to image_tag("Capstone_TSCB.png", class: "Img"), 'assets/Capstone_TSCB.png' %>
+                </td>
+                <td>
+                    <%= link_to image_tag("Capstone_Box.png", class: "Img"), 'assets/Capstone_Box.png' %>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="tableauTitle" class="Title">
+        <h1>TABLEAU DATA ANALYSIS FOR CUMMINS ALLISON</h1>
+    </div>
+    
+    <div id="tableauInfo" class="Info">
+        <table>
+            <tr>
+                <td>
+                    <%= link_to image_tag("Tableau_Dash.png", class: "Img"), 'assets/Tableau_Dash.png' %>
+                </td>
+                <td>
+                    <%= link_to image_tag("Tableau_Web.png", class: "Img"), 'assets/Tableau_Web.png' %>
+                </td>
+                <td>
+                    <ul>
+                        <li>Learned how to use Tableau to create visuals for data analysis.</li>
+                        <li>Created plots to analyze the amounts of notes run per day and machine, the different type of jams, and the sensor measurement data for each note run through a machine.</li>
+                        <li>The plots were created to update automatically using connections to a SQL server and a Tableau Server.</li>
+                        <li>The dashboards were added to a web server in order to be accessed by anyone on the company network by writing HTML, CSS, and javascript with Tableau's API</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="audioAmpTitle" class="Title">
+        <h1>AUDIO AMP CIRCUIT FOR CUMMINS ALLISON</h1>
+    </div>
+
+    <div id="audioAmpInfo" class="Info">
+        <table>
+            <tr>
+                <td>
+                    <%= link_to image_tag("AudioAmp_PCB.png", class: "Img"), 'assets/AudioAmp_PCB.png' %>
+                </td>
+                <td>
+                    <ul>
+                        <li>Learned how to utilize Altium to design PCBs and Schematics.</li>
+                        <li>Spec'd parts to meet the requirements to interface with the machine's main board</li>
+                        <li>Designed the schematic and PCB for the circuit prior to having it ordered.</li>
+                        <li>Manufactured the first iterations of the board to test the circuit.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="magSensorTitle" class="Title">
+        <h1>MAGNETIC SENSOR TESTING FOR CUMMINS ALLISON</h1>
+    </div>
+
+    <div id="magSensorInfo" class="Info">
+        <table>
+            <tr>
+                <td>
+                    <%= link_to image_tag("MagTesting_Noise.png", class: "Img"), 'assets/MagTesting_Noise.png' %>
+                </td>
+                <td>
+                    <%= link_to image_tag("MagTesting_TestNote.png", class: "Img"), 'assets/MagTesting_TestNote.png' %>
+                </td>
+                <td rowspan=2>
+                    <ul>
+                        <li>Created MATLAB scripts to automatically analyze .csv files output from a test machine.</li>
+                        <li>The purpose was to test how effective Mitsubishi's Magnectic sensor would be for detecting the magnetic properties of currency.</li>
+                        <li>Was able to analyze noise from various sensors and the noise contributed from extraneous moving magnetic parts.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=2>
+                        <%= link_to image_tag("MagTesting_Shafts.png", class: "Img"), 'assets/MagTesting_Shafts.png' %>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="CounterfeitTitle" class="Title">
+        <h1>COUNTERFEIT NOTE DETECTION SOFTWARE</h1>
+    </div>
+    
+    <div id="CounterfeitInfo" class="Info">
+        <table>
+            <tr>
+                <td>
+                    <%= link_to image_tag("W&O_Deskew.png", class:"Img"), "assets/W&O_Deskew.png" %>
+                </td>
+                <td>
+                    <%= link_to image_tag("W&O_Compare.png", class:"Img"), "assets/W&O_Compare.png" %>
+                </td>
+                <td rowspan=2>
+                    <ul>
+                        <li>Developed protoyped software that could determine if note was counterfeit.</li>
+                        <li>Software utilized a known genuine note to compare to an unknown note.</li>
+                        <li>The software compared the infrared images of the two notes and compared the result to a dynamic threshold.</li>
+                        <li>Software was upwards of 80% efficent.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=2>
+                        <%= link_to image_tag("W&O_Table.png", class:"Img"), "assets/W&O_Table.png" %>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="GlatfelterTitle" class="Title">
+        <h1>CHEMICAL FLOW CONTROL DEVICE FOR GLATFELTER</h1>
+    </div>
+    
+    <div id="GlatfelterInfo" class="Info">
+        <table>
+            <tr>
+                <td>
+                    <%= link_to image_tag("Glatfelter_Device.png", class: "Img"), "assets/Glatfelter_Device.png" %>
+                </td>
+                <td>
+                    <%= link_to image_tag("Glatfelter_Drawing.png", class: "Img"), "assets/Glatfelter_Drawing.png" %>
+                </td>
+                <td rowspan=2>
+                    <ul>
+                        <li>Responsible for correcting an unknown issue with a device that transports a specific amount of chemicals to a desired location.</li>
+                        <li>In order to accomplish the task full understanding of the device had to be achieved as well as coming up with a unique solution that would allow for the safety of the machine as well as the machine running properly.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <%= link_to image_tag("Glatfelter_Cabinet.png", class: "Img"), "assets/Glatfelter_Cabinet.png" %>
+                </td>
+                <td>
+                    <%= link_to image_tag("Glatfelter_IO.png", class: "Img"), "assets/Glatfelter_IO.png" %>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="VectronTitle" class="Title">
+        <h1>OCXO ASIC FOR VECTRON INTERNATIONAL</h1>
+    </div>
+
+    <div id="VectronInfo" class="Title">
+        <table>
+            <tr>
+                <td>
+                    <%= link_to image_tag("Vectron_PCB.png", class: "Img"), "assets/Vectron_PCB.png" %>
+                </td>
+                <td>
+                    <%= link_to image_tag("Vectron_Schematic.png", class: "Img"), "assets/Vectron_Schematic.png" %>
+                </td>
+                <td rowspan=2>
+                    <ul>
+                        <li>Tested an oven controlled crsytal oscillator application specific integrated circuit.</li>
+                        <li>Gained experience using multiple different types of oscillators.</li>
+                        <li>Provide changes that would be made to the final design.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <%= link_to image_tag("Vectron_ASIC.png", class: "Img"), "assets/Vectron_ASIC.png" %>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="WebsiteTitle" class="Title">
+        <h1>THIS WEBSITE</h1>
+    </div>
+
+    <div id="WebsiteInfo" class="Info">
+        <ul>
+            <li>Taught myself HTML, CSS, javascript, Ruby, and Rails in a short period of time.</li>
+            <li>Taught myself how to use apache to make a web server.</li>
+        </ul>
+    </div>
+
+</div>

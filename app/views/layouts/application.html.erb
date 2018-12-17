@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Joe Maier</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+        <div id="navBar">
+            <!--<img src="/public/images/1523970445932.png">-->
+            <a href="/"><%= image_tag("profPic_Grad_zoomed.png", class: "navImg") %></a>
+            <br/>
+            <p class="navBarElement"><a href="/info" class="textLink">INFO</a></a></p>
+            <hr/>
+            <p class="navBarElement"><a href="/resume" class="textLink">RESUME</a></p>
+            <hr/>
+            <p class="navBarElement"><a href="/projects" class="textLink">PROJECTS</a></p>
+            <hr/>
+            <p class="navBarElement"><a href="/work" class="textLink">WORK EXPERIENCE</a></p>
+            <hr/>
+            <p class="navBarElement"><a href="/contact" class="textLink">CONTACT ME</a></p>
+            <hr/>
+        </div>
+    <%= yield %>
+  </body>
+</html>
