@@ -87,3 +87,14 @@ a.logoLink:link {
     margin-top: -70px;
 }
 
+@media screen and (max-width: 479px) {
+    //start of phone styles 
+    .image1 {
+        display: none;
+    }
+
+    #HiIm #Joe {
+        color: black;
+    }
+    }
+
