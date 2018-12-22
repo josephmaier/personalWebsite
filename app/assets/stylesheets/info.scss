@@ -118,11 +118,11 @@ h1 {
         position: static;
         margin-left: 45%;
         width: 30vw;
-        height: 26vh; 
+        height: 32vh; 
     }
 
     #profDetails .profDetailsImg {
-        width: 24vw;
+        width: 28vw;
     }
 
     #profDetails table {
@@ -130,7 +130,12 @@ h1 {
     }
     
     #profDetails h1 {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    #aboutMeTitle {
+        font-size: 16px;
+        margin-left: 30%
     }
 
 }
