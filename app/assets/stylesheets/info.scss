@@ -113,3 +113,9 @@ h1 {
     //font-size: 0.85vw;
     font-size: calc(0.5vw + 0.8vh);
 }
+
+@media only screen and (max-width: 768px) {
+    #profDetails {
+        position: static;
+    }
+}
