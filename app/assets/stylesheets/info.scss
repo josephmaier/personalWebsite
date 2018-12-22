@@ -30,7 +30,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
-    width: 21vw;
+    width: 18vw;
 }
 
 #profDetails table {
@@ -116,7 +116,7 @@ h1 {
 @media only screen and (max-width: 768px) {
     #profDetails {
         position: static;
-        margin-left: 35%;
+        margin-left: 50%; 
     }
 
     // #profDetails table {
