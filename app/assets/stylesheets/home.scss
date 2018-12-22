@@ -90,11 +90,21 @@ a.logoLink:link {
 @media only screen and (max-width: 768px) {
     //start of phone styles 
     .image1 {
-        display: none;
+        //display: none;
+        width: 91vw;
     }
 
     #name {
         color: black;
     }
+
+    .HiIm {
+        font-size: 20px;
+    }
+
+    .Joe {
+        font-size: 40px;
+    }
+
     }
 
