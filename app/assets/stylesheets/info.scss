@@ -125,11 +125,11 @@ h1 {
         width: 28vw;
     }
 
-    #profDetails table {
+    #profDetails td {
         font-size: 12px;
     }
     
-    h1 {
+    #profDetails h1 {
         font-size: 15px;
     }
 
@@ -137,7 +137,11 @@ h1 {
         margin-left: 30%
     }
 
-    #aboutMeInfo table {
+    #aboutMeTitle h1 {
+        font-size: 15px;
+    }
+
+    #aboutMeInfo td {
         font-size: 12px;
     }
 
