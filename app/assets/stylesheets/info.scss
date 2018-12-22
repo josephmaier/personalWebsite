@@ -116,10 +116,21 @@ h1 {
 @media only screen and (max-width: 768px) {
     #profDetails {
         position: static;
-        margin-left: 50%; 
+        margin-left: 45%;
+        width: 30vw;
+        height: 26vh; 
     }
 
-    // #profDetails table {
+    #profDetails .profDetailsImg {
+        width: 24vw;
+    }
 
-    // }
+    #profDetails table {
+        font-size: 12px;
+    }
+    
+    #profDetails h1 {
+        font-size: 20px;
+    }
+
 }
