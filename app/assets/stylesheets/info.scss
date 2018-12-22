@@ -31,7 +31,7 @@
     margin-right: auto;
     margin-bottom: 1%;
     width: 21vw;
-    height: 28vh;
+    height: 28vw;
 }
 
 #profDetails table {
@@ -117,5 +117,10 @@ h1 {
 @media only screen and (max-width: 768px) {
     #profDetails {
         position: static;
+        margin-left: 35%;
     }
+
+    // #profDetails table {
+
+    // }
 }
